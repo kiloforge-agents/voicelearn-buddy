@@ -1,0 +1,19 @@
+{
+  "name": "VoiceLearn Buddy",
+  "short_name": "VoiceLearn",
+  "description": "Voice-first PWA for bite-sized language lessons with a friendly AI buddy. Works offline.",
+  "start_url": "/?utm_source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7f3ec",
+  "theme_color": "#f7f3ec",
+  "categories": ["education", "productivity", "utilities"],
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Today's lesson", "short_name": "Lesson", "url": "/learn", "description": "Open the lessons library" },
+    { "name": "Conversation", "short_name": "Chat", "url": "/conversation" }
+  ]
+}
